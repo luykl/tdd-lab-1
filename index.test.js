@@ -1,6 +1,5 @@
 
-const { test, expect } = require("@jest/globals");
-const translate = require("./index.js");
+const { translate } = require("./index.js");
 
 // STARTING TESTS:
 // Words starting with different vowels
@@ -94,7 +93,10 @@ describe("translate function", () => {
         expect(result).toEqual("owthray");
     });
 
-    
+    // test("wtf", () => {
+    //     let result = translate("rhythm");
+    //     expect(result).toEqual("???");
+    // });
 
 
 
